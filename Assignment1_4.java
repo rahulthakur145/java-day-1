@@ -1,10 +1,10 @@
 public class Assignment1_4 {
-   class Parent {
+   static class Parent {
     String fatherName = "Mr. Thakur";
     String motherName = "Mrs. Thakur";
 }
 
-class Child extends Parent {
+static class Child extends Parent {
     String childName = "Rahul Thakur";
 
     void showNames() {
