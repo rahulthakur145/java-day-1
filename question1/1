@@ -1,0 +1,33 @@
+1. Why there is NO concept of pointers in Java
+
+Java does not support pointers like C/C++ because of security, simplicity, and reliability.
+
+Main Reasons:
+
+1.Security :
+
+Pointers can access any memory location.
+
+This may lead to unauthorized memory access.
+
+Java avoids this to prevent hacking and memory corruption.
+
+2.No direct memory manipulation :
+
+Java uses references, not pointers.
+
+JVM manages memory automatically using Garbage Collection.
+
+3.Platform Independence :
+
+Pointer size depends on system architecture.
+
+Java avoids pointers to remain Write Once, Run Anywhere.
+
+Avoids errors like
+
+Dangling pointers
+
+Memory leaks
+
+Buffer overflow
