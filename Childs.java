@@ -10,7 +10,7 @@ class child extends parents{
         System.out.println("This is child class constructor");
     }
 }
-public class main{
+public class Main{
     public static void main(String[] args) {
         child c = new child();
     }
